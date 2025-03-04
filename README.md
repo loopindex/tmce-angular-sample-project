@@ -2,7 +2,7 @@
 
 ## Setup
 
-After cloning and running `yarn` or `npm install` in the root folder, locate the `flite` and `lance` folders from the distribution archive and copy them to the `public` under the project root.
+After cloning this repo and running `yarn` or `npm install` in the root folder, locate the `flite` and `lance` folders from the distribution archive and copy them to the `public` folder under the project root.
 
 If you use only one of the plugins, then please edit `app.component.ts` and remove the references to the plugin you do not use.
 
@@ -14,5 +14,5 @@ To start a local development server, run:
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Once the server is running, open your browser and navigate to http://localhost:4200/. The application will automatically reload whenever you modify any of the source files.
 
