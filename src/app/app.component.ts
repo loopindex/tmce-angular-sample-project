@@ -33,7 +33,7 @@ export class AppComponent {
 	public get lance(): ILancePlugin| null {
 		return this._lance;
 	}
-	public get init(): Partial<IEditorOptions> {
+	public get editorOptions(): Partial<IEditorOptions> {
 		const self = this;
 		return {
 			external_plugins: {
