@@ -1,0 +1,10 @@
+.comments-container {
+	min-width: 300px;
+	max-width: 300px;
+	border: none;
+	display: block;
+
+	padding: 0px 5px;
+	margin-top: 0;
+	height: 100%;
+}
