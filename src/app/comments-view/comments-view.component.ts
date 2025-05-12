@@ -1,5 +1,7 @@
 import { Component, ElementRef, Input, ViewEncapsulation } from '@angular/core';
-import { ILancePlugin, ILanceUI, Nullable } from '../types';
+import type {Nullable} from "loopindex-types/common";
+import type { ILancePlugin } from "loopindex-types/lance";
+import type { ILanceUI } from "loopindex-types/lance/ui";
 
 @Component({
 	selector: 'comments-view',
