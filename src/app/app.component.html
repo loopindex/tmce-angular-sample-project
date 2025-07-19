@@ -1,11 +1,14 @@
 <h1>TinyMCE/Angular/LoopIndex demo</h1>
 <div class="main">
-  <div class="editor-container">
-    <editor
-      [init]="editorOptions"
-    />
-  </div>
-  <div class="sidebar">
-    <comments-view [lance]="lance"/>
-  </div>
+	<div class="editor-container">
+		<div class="controls">
+			<button class="test-btn" (click)="onTest()">Test</button>
+		</div>
+		<editor [init]="editorOptions(false)" />
+		<editor [init]="editorOptions(false)" initialValue="Disabled editor" />
+
+	</div>
+	<div class="sidebar">
+		<comments-view [lance]="lance" />
+	</div>
 </div>

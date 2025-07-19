@@ -4,7 +4,7 @@
 
 After cloning this repo and running `yarn` or `npm install` in the root folder, locate the `flite` and `lance` folders from the distribution archive and copy them to the `public` folder under the project root.
 
-If you use only one of the plugins, then please edit `app.component.ts` and remove the references to the plugin you do not use.
+If you use only one of the plugins, then please edit `app.component.ts` and comment out the line that adds the unused plugin to the `external_plugins` object.
 
 ## Development server
 
