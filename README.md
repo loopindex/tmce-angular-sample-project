@@ -6,6 +6,8 @@ After cloning this repo and running `yarn` or `npm install` in the root folder, 
 
 If you use only one of the plugins, then please edit `app.component.ts` and comment out the line that adds the unused plugin to the `external_plugins` object.
 
+The `app` component includes an `onTest()` method, which can edit to attach your own logic to the test button.
+
 ## Development server
 
 To start a local development server, run:
