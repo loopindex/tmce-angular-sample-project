@@ -32,7 +32,7 @@ export class CommentsViewComponent {
 	private async _createUI(lance: ILancePlugin): Promise<Nullable<ILanceUI>> {
 		const el = this._ref.nativeElement.querySelector(".comments-container")
 
-		const u = lance.App.createAnnotationsUI({ type: "aligned" });
+		const u = lance.App.LANCE.createAnnotationsUI({ type: "aligned" });
 		if (!u) {
 			return null;
 		}

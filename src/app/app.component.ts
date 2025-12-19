@@ -8,9 +8,9 @@ import type { IEditorOptions } from './types';
 
 const initialUsers: ILanceUser[] = [
 	//1: { name: "Auberthis", avatar: "avatars/syd.png" },
-	{ id: "18", name: "Syd the longer name", picture: "/avatars/syd.png", type: "", metaData: {} },
-	{ id: "15", name: "David Frenkiel", picture: "/avatars/david.png", type: "", metaData: {} },
-	{ id: "21", name: "Mary Bus", picture: "/avatars/mary.png", type: "", metaData: {} },
+	{ id: "18", name: "Syd the longer name", picture: "/avatars/syd.png", type: "user", metaData: {} },
+	{ id: "15", name: "David Frenkiel", picture: "/avatars/david.png", type: "user", metaData: {} },
+	{ id: "21", name: "Mary Bus", picture: "/avatars/mary.png", type: "user", metaData: {} },
 	// { id: "JR", name: "Jules Rocheteau", picture: "avatars/syd.png" }
 ];
 

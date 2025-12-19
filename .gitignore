@@ -10,6 +10,8 @@ public/lance
 node_modules
 *.log
 .angular
+**/yarn.lock
+**/package-lock.json
 
 # IDEs and editors
 # Visual Studio Code
